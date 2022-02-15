@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Blinker&display=swap");
+
+.login {
+  background-color: #fff;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+}
+.login__container {
+  padding: 100px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.login__container > img {
+  object-fit: contain;
+  height: 100px;
+  margin-bottom: 20px;
+}
+.login__container > button {
+  margin-top: 50px;
+  text-transform: inherit !important;
+  background-color: #dd4b39 !important;
+  color: #fff;
+}
+.login__text > h1 {
+  font-family: "Blinker", sans-serif;
+}
+.family {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 3px 1px rgba(0, 0, 0, 0.1);
+}
